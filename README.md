@@ -1,80 +1,85 @@
-# 🔧 Selenium Web Automation with Java – CodenBoxAutomationTest
+ CodenBox Automation Test Suite
 
-This is an automated testing project built using **Selenium WebDriver** with **Java** and **TestNG**, targeting the demo site:  
-👉 [CodenBox Automation Lab Practice Page](https://codenboxautomationlab.com/practice/)
+A professional end-to-end **Selenium WebDriver** test automation suite using **Java** and **TestNG**, targeting the UI elements and interactive components of [CodenBox Automation Lab Practice Page](https://codenboxautomationlab.com/practice/).
 
 ## 📌 Project Overview
 
-This test suite covers a wide range of web automation techniques and Selenium functionalities including:
+This project is designed to demonstrate the automation of common web testing scenarios including:
+- Radio buttons and checkboxes
+- Dynamic and static dropdowns
+- Browser tab/window handling
+- Alerts and pop-ups
+- Web tables and iframes
+- Mouse hover interactions
+- Screenshots and file downloads
 
-- ✅ Radio buttons
-- ✅ Dynamic and static dropdowns
-- ✅ Checkbox interactions
-- ✅ Window and tab switching
-- ✅ JavaScript alerts
-- ✅ Web tables (rows and cells)
-- ✅ Element visibility (hide/show)
-- ✅ Mouse hover actions
-- ✅ iFrame interactions
-- ✅ Download simulation & screenshots
-- ❌ (Optional) Booking calendar
-
-All test methods are designed to be modular and executed using **TestNG**, with randomization added to simulate real-user behavior where applicable.
+All tests are written following best practices in automation, ensuring:
+- Readability and maintainability
+- Randomized element selection for robustness
+- Assertion of expected behaviors
+- Modular test structure using TestNG
 
 ---
 
-## 🧪 Technologies Used
+## 🛠 Technologies Used
 
-| Tool            | Purpose                         |
-|-----------------|---------------------------------|
-| Java            | Programming language            |
-| Selenium WebDriver | Web automation framework       |
-| TestNG          | Test execution & assertions     |
+| Technology | Description |
+|------------|-------------|
+| Java       | Programming language |
+| Selenium WebDriver | UI automation |
+| TestNG     | Test framework for prioritization and reporting |
 | Apache Commons IO | File operations (screenshots) |
-| ChromeDriver    | Browser driver                  |
+| Maven / JUnit (optional) | Dependency management / optional integration |
 
 ---
 
-## 🚀 Getting Started
+## ✅ Features and Test Cases
+
+| Test Method                    | Description |
+|-------------------------------|-------------|
+| `RadioButton()`               | Selects a random radio button and verifies selection |
+| `DynamicDropdown()`           | Tests autocomplete dropdown with keyboard navigation |
+| `StaticDropdown()`            | Selects option from static dropdown using index |
+| `Checkbox()`                  | Randomly selects two checkboxes and verifies them |
+| `SwitchWindow()`              | Opens a new browser window and switches context |
+| `OpenTab()`                   | Opens a new browser tab and verifies title |
+| `SwitchToAlert()`             | Handles simple and confirmation alerts |
+| `WebTable()`                  | Prints cell data from web table |
+| `PrintTableRows()`           | Logs entire rows from web table |
+| `HideAndShowTextbox()`       | Verifies textbox visibility toggle |
+| `MouseHover()`                | Performs hover and clicks sub-options |
+| `IframeTest()`                | Switches to iframe and interacts with menu |
+| `DownloadApkFileAndScreenshot()` | Captures screenshot and verifies image creation |
+
+---
+
+## 🔧 Setup and Execution
 
 ### Prerequisites
 
-Ensure the following are installed on your machine:
+- JDK 8 or higher
+- Maven installed (optional)
+- Chrome browser
+- ChromeDriver (ensure path is correctly set)
 
-- [Java JDK 8+](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
-- [Maven](https://maven.apache.org/download.cgi)
-- [Chrome Browser](https://www.google.com/chrome/)
-- [TestNG plugin](https://testng.org/doc/eclipse.html) (if using Eclipse)
-- ChromeDriver compatible with your browser version (placed in system PATH or configured)
-
----
-
-### 🔧 How to Run
+### Run the Tests
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/CodenBoxAutomationTest.git
    cd CodenBoxAutomationTest
-Open the project in your preferred IDE (Eclipse, IntelliJ, etc.)
+Add dependencies (if using Maven):
 
-Ensure dependencies are set (add TestNG if using manually).
+Selenium
 
-Run the test class AppTest.java as a TestNG Test.
+TestNG
 
-📸 Screenshots
-Test DownloadApkFileandScreenShot() saves screenshots with timestamp format to:
+Apache Commons IO
 
-swift
-نسخ
-تحرير
-/src/test/ScreenShot/
-Example screenshot filename:
+Execute tests via TestNG XML or your IDE.
 
-نسخ
-تحرير
-Tue_Jun_03_2025_10_30_45_GMT+03_00.png
-📂 Project Structure
-pgsql
+📁 Project Structure
+bash
 نسخ
 تحرير
 CodenBoxAutomationTest/
@@ -83,32 +88,18 @@ CodenBoxAutomationTest/
 │   └── test/
 │       └── java/
 │           └── CodenBoxAutomationTest/
-│               └── AppTest.java       # Main test class
+│               └── AppTest.java      # Main Test Class
 │
-├── pom.xml (if using Maven)
-├── README.md
-└── .gitignore
-📌 Test Coverage Summary
-Test Method	Description
-RadioButton()	Selects a random radio button
-DynamicDropdown()	Handles autocomplete dropdown
-StaticDropdown()	Selects value from a static dropdown
-Checkbox()	Selects two random checkboxes
-SwitchWindow()	Switches between windows
-OpenTap()	Opens a new tab and switches back
-SwitchToAlert()	Handles alerts and confirm boxes
-webTable()	Prints all cell data
-thecrows()	Prints all table rows
-HideandShow()	Hides/shows input box and validates
-MouseHover()	Performs hover and clicks options
-Calendar()	(Disabled) Reads calendar popup
-Iframe()	Switches into iframe and clicks menu
-DownloadApkFileandScreenShot()	Clicks download & captures screenshot
+├── screenshots/                     # Captured screenshots saved here
+├── pom.xml                          # Maven configuration file (if used)
+└── README.md
+📷 Screenshots
+Each time DownloadApkFileAndScreenshot() is executed, a screenshot is saved to /src/test/ScreenShot/ with a timestamped filename.
+
+
 
 🤝 Contribution
 Contributions are welcome!
-Feel free to fork the repository and submit a pull request.
-
 
 🎯 Happy Testing! 
 
