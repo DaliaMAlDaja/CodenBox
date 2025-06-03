@@ -5,8 +5,7 @@
     <classes>
       <class name="CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest">
         <methods>
-          <include name="DownloadApkFileandScreenShot"/>
-          <include name="Iframe"/>
+          <include name="StaticDropdown"/>
           <include name="SetUp"/>
         </methods>
       </class> <!-- CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest -->

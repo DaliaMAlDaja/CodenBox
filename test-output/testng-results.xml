@@ -1,84 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="18" passed="17" failed="0" skipped="0">
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-03T15:58:36 GMT+03:00" name="Default suite" finished-at="2025-06-03T15:59:52 GMT+03:00" duration-ms="75248">
+  <suite started-at="2025-06-03T18:09:19 GMT+03:00" name="Default suite" finished-at="2025-06-03T18:10:42 GMT+03:00" duration-ms="83022">
     <groups>
     </groups>
-    <test started-at="2025-06-03T15:58:36 GMT+03:00" name="Default test" finished-at="2025-06-03T15:59:52 GMT+03:00" duration-ms="75248">
+    <test started-at="2025-06-03T18:09:19 GMT+03:00" name="Default test" finished-at="2025-06-03T18:10:42 GMT+03:00" duration-ms="83022">
       <class name="CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:58:36 GMT+03:00" name="SetUp" finished-at="2025-06-03T15:58:55 GMT+03:00" duration-ms="18244" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:09:20 GMT+03:00" name="SetUp" finished-at="2025-06-03T18:09:38 GMT+03:00" duration-ms="18057" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="RadioButton()[pri:1, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:58:55 GMT+03:00" name="RadioButton" finished-at="2025-06-03T15:58:55 GMT+03:00" duration-ms="207" status="PASS">
+        <test-method signature="RadioButton()[pri:1, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:09:38 GMT+03:00" name="RadioButton" finished-at="2025-06-03T18:09:40 GMT+03:00" duration-ms="2306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RadioButton -->
-        <test-method signature="DynamicDropdown()[pri:2, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:58:55 GMT+03:00" name="DynamicDropdown" finished-at="2025-06-03T15:58:56 GMT+03:00" duration-ms="1370" status="PASS">
+        <test-method signature="DynamicDropdown()[pri:2, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:09:40 GMT+03:00" name="DynamicDropdown" finished-at="2025-06-03T18:09:43 GMT+03:00" duration-ms="2672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DynamicDropdown -->
-        <test-method signature="StaticDropdown()[pri:3, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:58:56 GMT+03:00" name="StaticDropdown" finished-at="2025-06-03T15:58:57 GMT+03:00" duration-ms="260" status="PASS">
+        <test-method signature="StaticDropdown()[pri:3, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:09:43 GMT+03:00" name="StaticDropdown" finished-at="2025-06-03T18:09:44 GMT+03:00" duration-ms="1359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StaticDropdown -->
-        <test-method signature="Checkbox()[pri:4, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:58:57 GMT+03:00" name="Checkbox" finished-at="2025-06-03T15:58:57 GMT+03:00" duration-ms="344" status="PASS">
+        <test-method signature="Checkbox()[pri:4, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:09:44 GMT+03:00" name="Checkbox" finished-at="2025-06-03T18:09:45 GMT+03:00" duration-ms="351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkbox -->
-        <test-method signature="SwitchWindow()[pri:5, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:58:57 GMT+03:00" name="SwitchWindow" finished-at="2025-06-03T15:59:01 GMT+03:00" duration-ms="3991" status="PASS">
+        <test-method signature="SwitchWindow()[pri:5, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:09:45 GMT+03:00" name="SwitchWindow" finished-at="2025-06-03T18:09:51 GMT+03:00" duration-ms="6262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SwitchWindow -->
-        <test-method signature="OpenTap()[pri:7, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:59:01 GMT+03:00" name="OpenTap" finished-at="2025-06-03T15:59:03 GMT+03:00" duration-ms="1871" status="PASS">
+        <test-method signature="OpenTab()[pri:6, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:09:51 GMT+03:00" name="OpenTab" finished-at="2025-06-03T18:10:11 GMT+03:00" duration-ms="19802" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenTap -->
-        <test-method signature="SwitchToAlert()[pri:8, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:59:03 GMT+03:00" name="SwitchToAlert" finished-at="2025-06-03T15:59:07 GMT+03:00" duration-ms="4449" status="PASS">
+        </test-method> <!-- OpenTab -->
+        <test-method signature="SwitchToAlert()[pri:7, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:10:11 GMT+03:00" name="SwitchToAlert" finished-at="2025-06-03T18:10:13 GMT+03:00" duration-ms="2560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SwitchToAlert -->
-        <test-method signature="webTable()[pri:9, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:59:07 GMT+03:00" name="webTable" finished-at="2025-06-03T15:59:08 GMT+03:00" duration-ms="760" status="PASS">
+        <test-method signature="WebTable()[pri:8, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:10:13 GMT+03:00" name="WebTable" finished-at="2025-06-03T18:10:14 GMT+03:00" duration-ms="1149" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webTable -->
-        <test-method signature="thecrows()[pri:10, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:59:08 GMT+03:00" name="thecrows" finished-at="2025-06-03T15:59:09 GMT+03:00" duration-ms="313" status="PASS">
+        </test-method> <!-- WebTable -->
+        <test-method signature="PrintTableRows()[pri:9, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:10:14 GMT+03:00" name="PrintTableRows" finished-at="2025-06-03T18:10:15 GMT+03:00" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- thecrows -->
-        <test-method signature="HideandShow()[pri:11, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:59:09 GMT+03:00" name="HideandShow" finished-at="2025-06-03T15:59:11 GMT+03:00" duration-ms="2847" status="PASS">
+        </test-method> <!-- PrintTableRows -->
+        <test-method signature="HideAndShowTextbox()[pri:10, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:10:15 GMT+03:00" name="HideAndShowTextbox" finished-at="2025-06-03T18:10:17 GMT+03:00" duration-ms="2551" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HideandShow -->
-        <test-method signature="MouseHover()[pri:12, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:59:11 GMT+03:00" name="MouseHover" finished-at="2025-06-03T15:59:31 GMT+03:00" duration-ms="19766" status="PASS">
+        </test-method> <!-- HideAndShowTextbox -->
+        <test-method signature="MouseHover()[pri:11, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:10:17 GMT+03:00" name="MouseHover" finished-at="2025-06-03T18:10:28 GMT+03:00" duration-ms="10367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MouseHover -->
-        <test-method signature="Iframe()[pri:14, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:59:31 GMT+03:00" name="Iframe" finished-at="2025-06-03T15:59:35 GMT+03:00" duration-ms="3369" status="PASS">
+        <test-method signature="IframeTest()[pri:12, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:10:28 GMT+03:00" name="IframeTest" finished-at="2025-06-03T18:10:30 GMT+03:00" duration-ms="2480" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Iframe -->
-        <test-method signature="DownloadApkFileandScreenShot()[pri:15, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:59:35 GMT+03:00" name="DownloadApkFileandScreenShot" finished-at="2025-06-03T15:59:40 GMT+03:00" duration-ms="5589" status="PASS">
+        </test-method> <!-- IframeTest -->
+        <test-method signature="DownloadApkFileAndScreenshot()[pri:13, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:10:30 GMT+03:00" name="DownloadApkFileAndScreenshot" finished-at="2025-06-03T18:10:33 GMT+03:00" duration-ms="2419" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DownloadApkFileandScreenShot -->
-        <test-method signature="DownloadApkFileandScreenShot()[pri:15, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:59:40 GMT+03:00" name="DownloadApkFileandScreenShot" finished-at="2025-06-03T15:59:43 GMT+03:00" duration-ms="2859" status="PASS">
+        </test-method> <!-- DownloadApkFileAndScreenshot -->
+        <test-method signature="DownloadApkFileAndScreenshot()[pri:13, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:10:33 GMT+03:00" name="DownloadApkFileAndScreenshot" finished-at="2025-06-03T18:10:34 GMT+03:00" duration-ms="1328" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DownloadApkFileandScreenShot -->
-        <test-method signature="DownloadApkFileandScreenShot()[pri:15, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:59:43 GMT+03:00" name="DownloadApkFileandScreenShot" finished-at="2025-06-03T15:59:46 GMT+03:00" duration-ms="2855" status="PASS">
+        </test-method> <!-- DownloadApkFileAndScreenshot -->
+        <test-method signature="DownloadApkFileAndScreenshot()[pri:13, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:10:34 GMT+03:00" name="DownloadApkFileAndScreenshot" finished-at="2025-06-03T18:10:35 GMT+03:00" duration-ms="1355" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DownloadApkFileandScreenShot -->
-        <test-method signature="DownloadApkFileandScreenShot()[pri:15, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:59:46 GMT+03:00" name="DownloadApkFileandScreenShot" finished-at="2025-06-03T15:59:49 GMT+03:00" duration-ms="2853" status="PASS">
+        </test-method> <!-- DownloadApkFileAndScreenshot -->
+        <test-method signature="DownloadApkFileAndScreenshot()[pri:13, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:10:35 GMT+03:00" name="DownloadApkFileAndScreenshot" finished-at="2025-06-03T18:10:37 GMT+03:00" duration-ms="1453" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DownloadApkFileandScreenShot -->
-        <test-method signature="DownloadApkFileandScreenShot()[pri:15, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@7d42c224]" started-at="2025-06-03T15:59:49 GMT+03:00" name="DownloadApkFileandScreenShot" finished-at="2025-06-03T15:59:52 GMT+03:00" duration-ms="2875" status="PASS">
+        </test-method> <!-- DownloadApkFileAndScreenshot -->
+        <test-method signature="DownloadApkFileAndScreenshot()[pri:13, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:10:37 GMT+03:00" name="DownloadApkFileAndScreenshot" finished-at="2025-06-03T18:10:38 GMT+03:00" duration-ms="1531" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DownloadApkFileandScreenShot -->
+        </test-method> <!-- DownloadApkFileAndScreenshot -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest@56aaaecd]" started-at="2025-06-03T18:10:38 GMT+03:00" name="TearDown" finished-at="2025-06-03T18:10:42 GMT+03:00" duration-ms="4212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
       </class> <!-- CodenBoxAutomationTest.CodenBoxAutomationTest.AppTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
